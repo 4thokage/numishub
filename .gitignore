@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build / generated output
+dist/
+build/
+.output/
+.svelte-kit/
+.wrangler/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Editor / tooling
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
